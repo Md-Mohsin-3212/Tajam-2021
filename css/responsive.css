@@ -46,12 +46,18 @@
   .service-text {
     padding-top: 40px;
   }
+  .service-head p::after {
+    top: 135%;  
+  }
   .team-bottom-text a {
     display: inline-block;
     width: 100%;
   }
   .project-button a {
     width: 100%;
+  }
+  .team-top-text p::after {
+    top: 165%;
   }
   .team-slider-text p {
     padding-left: 1rem;
@@ -62,6 +68,10 @@
   }
   .team-arrow-right {
     display: none !important;
+  }
+  .slider-img {
+    width: 296px;
+
   }
   .contact-left h3,
   .contact-right h3 {
@@ -326,3 +336,4 @@
     right: 25.5%;
   }
 }
+
