@@ -1,0 +1,705 @@
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* manu part css start */
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #0fb0b1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0fb0b1;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.nav-bg{
+  background: #444444;
+}
+
+.navbar{
+  transition: 1s ease;
+}
+/* manu part css end */
+
+/* banner part css start */
+
+#banner-part {
+  background: url(img/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+#banner-part::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(43, 36, 76, 0.8);
+}
+.banner-text {
+  position: relative;
+  z-index: 95;
+  padding-top: 228px;
+  padding-bottom: 205px;
+}
+
+.banner-text h2 {
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.banner-text h2::after {
+  position: absolute;
+  content: "";
+  width: 59px;
+  height: 2px;
+  background-color: #0fb0b1;
+  left: 50%;
+  top: 60px;
+  transform: translatex(-50%);
+}
+
+.banner-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+  padding: 59px 115px 50px 115px;
+}
+
+.banner-text a {
+  border: 1px solid #00e0d0;
+  padding: 15px 30px;
+  color: #00e0d0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* slic slider css start */
+.banner-slider {
+  z-index: 95;
+  position: relative;
+}
+
+.slick-dots {
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  bottom: 70px;
+  transform: translateX(-50%);
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}
+
+.slick-dots li button {
+  color: transparent;
+  display: block;
+  background: rgba(31, 20, 66, 0);
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  transition: 0.8s all ease;
+}
+
+.slick-dots li.slick-active button {
+  background: rgb(0, 224, 208);
+}
+
+/* slic slider css end */
+
+/* banner part css end */
+
+/* about part css start */
+
+#about-part {
+  padding: 70px;
+}
+
+.about-text h2 {
+  color: #413d4b;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  padding-bottom: 29px;
+  margin-bottom: 0 !important;
+  text-transform: uppercase;
+}
+
+.about-text p {
+  color: #716e78;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 29px;
+  margin-bottom: 0 !important;
+}
+
+.about-text a {
+  border: 1px solid #00e0d0;
+  padding: 15px 30px;
+  color: #00e0d0;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* about part css end */
+
+/* vedio part css start */
+
+#vedio-part {
+  background: url(img/video_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 200px 0;
+}
+
+#vedio-part::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(43, 36, 76, 0.8);
+}
+
+.vedio-icon {
+  z-index: 95;
+  position: relative;
+}
+
+.vedio-i {
+  display: grid;
+  color: #ffffff;
+  font-size: 45px;
+  width: 90px;
+  height: 90px;
+  /* line-height: 90px; */
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  place-items: center;
+  cursor: pointer;
+}
+.vedio-i a {
+  color: #ffffff;
+}
+
+.vedio-icon h3 {
+  color: white;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding-top: 34px;
+  text-transform: uppercase;
+}
+
+/* vedio part css end */
+
+/* service part css start */
+
+#service-part {
+  padding: 70px 0;
+}
+
+.service-head h2 {
+  color: #413d4b;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+}
+
+.service-head p {
+  color: #78767c;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  font-size: 14px;
+  position: relative;
+}
+
+.service-head p::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #78767c;
+  left: 50%;
+  top: 34px;
+  transform: translatex(-50%);
+}
+
+.service-text {
+  padding-top: 80px;
+}
+
+.service-text img {
+  padding-bottom: 35px;
+  cursor: pointer;
+}
+
+.service-text h5 {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 20px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.service-text p {
+  color: #8f8f8f;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  padding: 0 60px;
+  line-height: 24px;
+  margin: 0;
+}
+
+/* service part css end */
+
+/* team part css start */
+
+#team {
+  background: url(img/team_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 70px 0;
+}
+
+#team::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(43, 36, 76, 0.8);
+}
+
+.team-top-text {
+  position: relative;
+  z-index: 95;
+  color: white;
+}
+
+.team-top-text h3 {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.team-top-text p {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  position: relative;
+}
+
+.team-top-text p::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #655c80;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40px;
+}
+
+.team-member {
+  position: relative;
+  z-index: 95;
+  text-align: center;
+  color: white;
+}
+
+.team-card {
+  background: none;
+  border: 1px solid #ffffff;
+}
+
+.team-member h5 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.team-member p {
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.team-bottom-text {
+  position: relative;
+  text-align: center;
+  z-index: 95;
+}
+
+.team-bottom-text p {
+  color: #ffffff;
+  padding-bottom: 29px;
+}
+
+.team-bottom-text a {
+  border: 1px solid #00e0d0;
+  padding: 14px 15px;
+  color: #00e0d0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.team-slider {
+  position: relative;
+  z-index: 95;
+  padding: 70px;
+}
+
+.team-slider .slick-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+}
+
+/* team part css end */
+
+/* project part css start */
+
+#project {
+  padding: 70px 0;
+}
+
+.project-part-left {
+  padding-bottom: 70px;
+}
+
+.project-part-left h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #413d4b;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+}
+
+.project-part-right p {
+  font-size: 14px;
+  color: #413d4b;
+  font-family: "Playfair Display", serif;
+}
+
+.project-button a {
+  display: inline-block;
+  border: 1px solid #00e0d0;
+  padding: 14px 15px;
+  color: #00e0d0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-button {
+  margin-top: 70px;
+}
+
+/* project part css end */
+
+/* team two css start */
+
+#team-two {
+  background: url(img/team_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 70px 0;
+}
+
+#team-two::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(43, 36, 76, 0.8);
+}
+
+.team-slider-text {
+  position: relative;
+  z-index: 95;
+  color: #ffffff;
+}
+
+.team-slider-text i {
+  font-size: 30px;
+  padding-bottom: 45px;
+}
+
+.team-slider-text p {
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-bottom: 45px;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Playfair Display", serif;
+}
+
+.team-slider-text h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.team-slider-text h5 {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 45px;
+}
+
+.team-slider-img {
+  position: relative;
+  z-index: 95;
+}
+
+.team-slider-img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.slider-img {
+  width: 500px;
+  position: relative;
+  z-index: 95;
+  margin: 0 auto;
+}
+
+.text-slide {
+  position: relative;
+  z-index: 95;
+}
+
+.team-arrow-left {
+  position: absolute;
+  font-size: 20px;
+  z-index: 100;
+  color: white;
+  cursor: pointer;
+  top: 79%;
+  left: 28%;
+}
+
+.team-arrow-right {
+  position: absolute;
+  font-size: 20px;
+  z-index: 100;
+  color: white;
+  cursor: pointer;
+  top: 79%;
+  right: 27.5%;
+}
+
+.slick-center .team-slider-img img {
+  border: 3px solid red;
+  transform: rotate(360deg);
+  transition: 2s;
+}
+
+/* team two css end */
+
+/* contact part css start */
+
+#contact {
+  padding: 70px 0;
+}
+
+.contact-left h3,
+.contact-right h3 {
+  font-size: 22px;
+  color: #413d4b;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.contact-left a {
+  display: inline-block;
+  border: 1px solid #00e0d0;
+  padding: 10px 30px;
+  color: #00e0d0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* contact part css end */
+
+/* footer part start */
+#footer {
+  background: url(img/footer_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 70px 0;
+  position: relative;
+}
+
+#footer::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(43, 36, 76, 0.8);
+}
+
+.footer-top-wrap {
+  position: relative;
+  z-index: 95;
+  color: #ffffff;
+}
+
+.footer-top-left img {
+  padding-bottom: 30px;
+}
+
+.footer-top-left p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 27px;
+  font-family: "Roboto", sans-serif;
+  padding-right: 70px;
+}
+
+.footer-top-middle h4,
+.footer-top-right h4 {
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 14px;
+  padding-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+.footer-top-middle p {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  line-height: 27px;
+}
+
+.footer-top-middle .row {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.map-i {
+  font-size: 15px;
+  margin-right: 1rem;
+}
+
+.footer-top-right input {
+  background: none;
+  border-radius: 0;
+}
+
+.footer-top-right ul {
+  padding: 0;
+  margin-top: 25px;
+}
+
+.footer-top-right ul li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 27px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0px 4px 0 0;
+  text-align: center;
+}
+.footer-top-right .share-i {
+  color: #ffffff;
+}
+
+.custom-btn {
+  background: #efeef3;
+  border-radius: 0;
+  padding: 5px 20px;
+  opacity: 0.6;
+}
+
+.btn-icon {
+  font-size: 25px;
+}
+
+.footer-bottom-wrap {
+  position: relative;
+  z-index: 95;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.footer-bottom-left ul {
+  padding: 0%;
+}
+
+.footer-bottom-left ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.footer-bottom-left ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* footer part end */
+
+/*     font-family: 'Playfair Display', serif;
+
+    font-family: 'Roboto', sans-serif; */

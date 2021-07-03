@@ -1,0 +1,328 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .navbar-nav {
+    background: rgb(80, 78, 78);
+  }
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    background: #ffff;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background: url(../img/scroll.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .banner-text h2::after {
+    top: 134%;
+  }
+  .banner-text p {
+    padding: 40px 38px;
+  }
+  .slick-dots {
+    bottom: 35px;
+  }
+  .about-text h2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .about-text p {
+    padding-bottom: 10px;
+  }
+  .about-text a {
+    width: 100%;
+    text-align: center;
+  }
+  #vedio-part {
+    padding: 50px 0;
+  }
+  .service-text {
+    padding-top: 40px;
+  }
+  .team-bottom-text a {
+    display: inline-block;
+    width: 100%;
+  }
+  .project-button a {
+    width: 100%;
+  }
+  .team-slider-text p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .team-arrow-left {
+    display: none !important;
+  }
+  .team-arrow-right {
+    display: none !important;
+  }
+  .contact-left h3,
+  .contact-right h3 {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .contact-left a {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-top-wrap {
+    text-align: center;
+  }
+  .footer-top-left p {
+    padding: 20px 15px;
+  }
+  .footer-top-middle .row {
+    justify-content: center;
+  }
+  .footer-top-middle h4 {
+    padding: 25px 0;
+    text-align: center;
+  }
+  .footer-top-right h4 {
+    padding: 25px 0;
+    text-align: center;
+  }
+  .footer-top-right .form-inline {
+    justify-content: center;
+  }
+  .footer-top-right ul {
+    text-align: center;
+  }
+
+  .footer-bottom-left ul {
+    text-align: center;
+  }
+  .footer-bottom-left ul li {
+    margin-right: 15px;
+  }
+  .text-right {
+    text-align: center !important;
+    padding: 8px 0px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .navbar-nav {
+    background: rgb(80, 78, 78);
+  }
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    background: #ffff;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background: url(../img/scroll.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .banner-text h2::after {
+    top: 134%;
+  }
+  .banner-text p {
+    padding: 40px 38px;
+  }
+  .slick-dots {
+    bottom: 35px;
+  }
+  .about-text h2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .about-text p {
+    padding-bottom: 10px;
+  }
+  .about-text a {
+    width: 100%;
+    text-align: center;
+  }
+  #vedio-part {
+    padding: 100px 0;
+  }
+  .service-text {
+    padding-top: 40px;
+  }
+  .team-bottom-text a {
+    display: inline-block;
+    width: 100%;
+  }
+  .project-button a {
+    width: 100%;
+  }
+  .team-slider-text p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .team-arrow-left {
+    top: 80%;
+    left: 3%;
+  }
+  .team-arrow-right {
+    top: 80%;
+    right: 2%;
+  }
+  .contact-left h3,
+  .contact-right h3 {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .contact-left a {
+    width: 100%;
+    text-align: center;
+  }
+  .footer-top-wrap {
+    text-align: center;
+  }
+  .footer-top-left p {
+    padding: 20px 50px;
+    text-align: center;
+  }
+  .footer-top-middle .row {
+    justify-content: center;
+  }
+  .footer-top-middle h4 {
+    padding: 25px 0;
+    text-align: center;
+  }
+  .footer-top-right h4 {
+    padding: 25px 0;
+    text-align: center;
+  }
+  .footer-top-right .form-inline {
+    justify-content: center;
+  }
+  .footer-top-right ul {
+    text-align: center;
+  }
+
+  .footer-bottom-left ul {
+    text-align: center;
+  }
+  .footer-bottom-left ul li {
+    margin-right: 15px;
+  }
+  .text-right {
+    text-align: center !important;
+    padding: 8px 0px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-align: center;
+  }
+  .navbar-nav {
+    background: rgb(80, 78, 78);
+  }
+  .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    background: #ffff;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background: url(../img/scroll.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .banner-text {
+    padding-top: 130px;
+    padding-bottom: 140px;
+  }
+  .about-text h2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .about-text p {
+    padding-bottom: 10px;
+  }
+  .about-text a {
+    width: 100%;
+    text-align: center;
+  }
+  #vedio-part {
+    padding: 100px 0;
+  }
+  .service-text {
+    padding-top: 20px;
+  }
+  .team-bottom-text a {
+    width: 100%;
+    display: block;
+  }
+  .project-button a {
+    width: 100%;
+  }
+  .team-slider-text p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .team-arrow-left {
+    top: 80%;
+    left: 14%;
+  }
+  .team-arrow-right {
+    top: 80%;
+    right: 13%;
+  }
+  .contact-left a {
+    width: 100%;
+    text-align: center;
+  }
+  .contact-left h3,
+  .contact-right h3 {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .footer-top-right h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .form-inline {
+    justify-content: center;
+  }
+  .footer-top-right ul {
+    text-align: center;
+  }
+  .footer-bottom-left ul li {
+    margin-right: 12px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .team-arrow-left {
+    top: 80%;
+    left: 22%;
+  }
+  .team-arrow-right {
+    top: 80%;
+    right: 21.5%;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .team-arrow-left {
+    left: 26%;
+  }
+  .team-arrow-right {
+    right: 25.5%;
+  }
+}
